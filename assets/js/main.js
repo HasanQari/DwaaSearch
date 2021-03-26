@@ -260,3 +260,8 @@
   });
 
 })()
+
+function SearchFunction() {
+  var x = document.getElementById("SSS").value;
+  document.getElementById("sss").innerHTML = x;
+}
